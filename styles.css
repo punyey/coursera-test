@@ -11,30 +11,28 @@ h1{
     width:100%;
 }
 p{
-    border: 1px solid black;
-    height:150px;
+    border: 3px solid black;
+    height:200px;
     width:90%;
     margin-right: auto;
     margin-left: auto;
+    background-color: grey;
+}
+.foodTitle1{
+    background-color:lightcoral;
+    border:3px solid black;
+    height:25px;
+    width:100px;
 }
 @media(min-width: 992px){
     .col-lg-4 {
         width:33%;
-        float:left;
-        background-color: grey;
+        float:left;  
     }
 }
 @media(min-width: 768px) and (max-width: 991px){
     .col-md-6 {
         width:50%;
-        float:left;
-        background-color: grey;
-    }
-}
-@media(max-width: 767px){
-    .col-sm-12 {
-        width:100%;
-        float:left;
-        background-color: grey;
+        float:left; 
     }
 }
