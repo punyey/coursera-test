@@ -32,15 +32,6 @@ p{
     font-weight: bold;
     padding:10px;
 }
-.foodTitle{
-    position:absolute;
-    top:0;
-    right:0;
-    padding:10px;
-    border-bottom:3px solid black;
-    border-left:3px solid black;
-    font-weight: bold;
-}
 @media(max-width:991px){
     .foodBox{
         float:left;
@@ -66,4 +57,25 @@ p{
     .foodBox:nth-child(2){
         margin-top: 20px;
     }
+}
+.foodTitle{
+    position:absolute;
+    top:0;
+    right:0;
+    padding:10px;
+    border-bottom:3px solid black;
+    border-left:3px solid black;
+    font-weight: bold;
+}
+#forChicken{
+    background-color: lightcoral;
+    color: black;
+}
+#forBeef{
+    background-color:crimson;
+    color:white;
+}
+#forSushi{
+    background-color:khaki;
+    color: black;
 }
