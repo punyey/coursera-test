@@ -65,14 +65,18 @@ p{
     padding:10px;
     border-bottom:3px solid black;
     border-left:3px solid black;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: larger;
+    width:150px;
+    height:40px;
+    text-align: center;
 }
 #forChicken{
     background-color: lightcoral;
     color: black;
 }
 #forBeef{
-    background-color:crimson;
+    background-color:firebrick;
     color:white;
 }
 #forSushi{
